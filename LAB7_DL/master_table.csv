@@ -1,0 +1,8 @@
+Model,Depth,Activation,Optimizer,Parameters,Train Accuracy,Validation Accuracy,Test Accuracy
+Dense,2,ReLU,SGD,33,0.949,0.926,0.874
+Dense,5,ReLU,SGD,249,0.85,0.822,0.848
+Dense,9,ReLU,SGD,537,0.937,0.844,0.896
+CNN,1,ReLU,SGD,47,0.936,0.952,0.951
+CNN,1,ReLU,SGD,47,0.958,0.943,0.905
+CNN,1,ReLU,MOMENTUM,47,0.918,0.939,0.896
+CNN,1,ReLU,ADAM,47,0.984,0.893,0.969
